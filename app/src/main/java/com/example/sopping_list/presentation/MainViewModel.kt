@@ -6,8 +6,9 @@ import com.example.sopping_list.data.ShopListRepositoryImpl
 import com.example.sopping_list.domain.DeleteShopItemUseCase
 import com.example.sopping_list.domain.EditShopItemUseCase
 import com.example.sopping_list.domain.GetShopListUseCase
+import com.example.sopping_list.domain.ShopItem
 
-class MainViewModel : ViewModel {
+class MainViewModel : ViewModel() {
 
     private val repository = ShopListRepositoryImpl
 
